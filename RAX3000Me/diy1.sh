@@ -24,6 +24,7 @@ git clone --depth 1 -b main https://github.com/QiYueYiya/openwrt-packages packag
 #git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 # Easytier
 git clone --depth 1 -b main https://github.com/EasyTier/luci-app-easytier.git luci-app-easytier
+git clone --depth 1 -b master https://github.com/Kiougar/luci-wrtbwmon.git luci-wrtbwmon
 mv luci-app-easytier/easytier package/easytier
 mv luci-app-easytier/luci-app-easytier package/luci-app-easytier
 rm -rf luci-app-easytier
