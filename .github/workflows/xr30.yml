@@ -15,7 +15,7 @@ on:
     branches:
       - main
     paths:
-      - 'xr30/.config'
+      - 'RAX3000Me/xr30.config'
   workflow_dispatch:
   schedule:
     - cron: '0 0 1 * *'
@@ -24,7 +24,7 @@ env:
   REPO_URL: https://github.com/dailook/immortalwrt-mt798x-23.05.git
   REPO_BRANCH: openwrt-23.05
   FEEDS_CONF: RAX3000Me/feeds.conf.default
-  CONFIG_FILE: xr30/.config
+  CONFIG_FILE: RAX3000Me/xr30.config
   DIY_P1_SH: RAX3000Me/diy1.sh
   DIY_P2_SH: RAX3000Me/diy2.sh
   UPLOAD_FIRMWARE: false
